@@ -1,17 +1,12 @@
-// Tu archivo personalizado .scss
-$primary: #ff5733; // Cambias el color azul por naranja
-@import "bootstrap/bootstrap";
+ Tu archivo personalizado .scss
+
+
 
 .perfil{
     border: 2px solid black;
 }
-
-border: grosor tipo color:
-
-border: 1px solid black;   /* Negro */
-border: 3px solid blue;    /* Azul */
-border: 2px dashed red;    /* Línea punteada */
-border: 4px double green;  /* Doble línea */
+   
+  
 
 .perfil{
     border: 2px solid black;
@@ -21,24 +16,26 @@ border: 4px double green;  /* Doble línea */
 .perfil,
 .experiencia,
 .proyectos{
-    border: 2px solid #333;
+    border: 2px solid #c00909;
     border-radius: 10px;
     padding: 20px;
 }
 
 .contenedor{
-    border: 3px solid black;
+    border: 3px solid rgb(255, 1, 1);
     margin: 20px;
 }
 
 body{
     margin: 0;
-    background-color: #b57edc; /* o el color que prefieras */
+    background-color: #f1960d; /* o el color que prefieras */
 }
 
 contenedor{
     display: flex;
     min-height: 100vh;
+    border: 10px solid blue;
+    box-sizing: border-box;
 }
 
 .perfil,
@@ -52,19 +49,28 @@ contenedor{
     min-height: 100vh; /* Ocupa toda la altura de la ventana */
 }
 
-Y a cada columna:
-
-.perfil{
-    background: #b57edc;
-    flex: 1;
+html,
+body{
+    margin: 0;
+    height: 100%;
 }
 
-.experiencia{
-    background: #a9c3e6;
-    flex: 1;
+#container{
+    display: flex;
+    gap: 10px;
+    min-height: 100vh;
 }
 
-.proyectos{
-    background: #f7dcb5;
-    flex: 1;
+#profileInfo,
+#relatedInfo,
+#projectInfo{
+    flex:1;
+    padding-left:10px;
 }
+
+
+
+
+
+
+
