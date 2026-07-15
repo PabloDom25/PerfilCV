@@ -3,51 +3,24 @@
 
 
 .perfil{
-    border: 2px solid black;
+    border-radius: 10px solid rgb(255, 0, 0);
 }
    
-  
-
-.perfil{
-    border: 2px solid black;
-    border-radius: 10px;
-}
-
-.perfil,
-.experiencia,
-.proyectos{
-    border: 2px solid #c00909;
-    border-radius: 10px;
-    padding: 20px;
-}
-
-.contenedor{
-    border: 3px solid rgb(255, 1, 1);
-    margin: 20px;
-}
 
 body{
     margin: 0;
     background-color: #f1960d; /* o el color que prefieras */
+    border-radius: 10px solid black;
 }
 
 contenedor{
     display: flex;
     min-height: 100vh;
-    border: 10px solid blue;
     box-sizing: border-box;
 }
 
-.perfil,
-.experiencia,
-.proyectos{
-    min-height: 100vh;
-}
 
-.contenedor{
-    display: flex;
-    min-height: 100vh; /* Ocupa toda la altura de la ventana */
-}
+
 
 html,
 body{
@@ -66,6 +39,7 @@ body{
 #projectInfo{
     flex:1;
     padding-left:10px;
+    border-radius: 10px;
 }
 
 
