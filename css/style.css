@@ -25,6 +25,7 @@ body {
   gap: 10px;
   min-height: 100vh;
   font-family: monospace;
+  flex-direction: row;
 }
 
 #profileInfo,
@@ -33,4 +34,10 @@ body {
   flex: 1;
   padding-left: 10px;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
